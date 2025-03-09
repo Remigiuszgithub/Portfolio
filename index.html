@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=”Description” content=”Junior Frontend Developer ze znajomością HTML, CSS, JavaScript, Wordpress oraz
+        PHP. Stworzę stronę internetową od podstaw oraz zaprojektuję grafikę na stronę przy użyciu narzędzia Canva.
+        Zaprojektuję twoją stronę w Figmie, a następnie ją zakoduję. Pomogę również z wyborem hostingu odpowiedniego pod
+        twoje potrzeby. Zajmuję się również prowadzeniem strone na Facebooku.” />
+    <meta name="og:image" content="logo.png">
+    <title>Portfolio | Remigiusz Nowakowski</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!--boxicons font-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!--header design-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Strona główna</a>
+            <a href="#Skills">Umiejętności</a>
+            <a href="#Project">Projekty</a>
+            <a href="#Contact">Kontakt</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Cześć, To Ja</h3>
+            <h1>Remigiusz Nowakowski</h1>
+            <h3>Jestem <span class="multiple-text"></span></h3>
+            <p>Ukończyłem studia licencjackie na Uniwersytecie WSB Merito w Toruniu, zdobywając dyplom na kierunku
+                Informatyka w Biznesie ze specjalizacją Frontend Developer.
+                Obecnie kontynuuję moją edukację na studiach magisterskich na Uniwersytecie WSB Merito w Gdańsku,
+                gdzie specjalizuję się w Programowaniu Aplikacji Webowych.<br>
+                W ciągu półtora roku zyskałem praktyczne doświadczenie, rozpoczynając jako stażysta IT w firmie
+                Smithfield,
+                a następnie awansując na stanowisko Specjalisty IT. W 2023 roku pracowałem w Szpitalu Powiatowym w Nowym
+                Mieście Lubawskim, a od 05.2024 pracuję w firmie ADEX COSMETICS&PHARMA SP. Z O.O. jako specjalista
+                IT<br>
+                Moje umiejętności obejmują pełen zakres front-end developmentu, ze szczególnym uwzględnieniem
+                zaawansowanych technologii
+                webowych. Zależy mi na ciągłym doskonaleniu się w dziedzinie informatyki,
+                a moje cele zawodowe skupiają się na udziale w innowacyjnych projektach, które pozwolą mi wykorzystać
+                moją wiedzę
+                w praktyce oraz umożliwią mi dalszy rozwój.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/remek.nowakowski/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.linkedin.com/in/remigiusz-nowakowski-a97432211/"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Remigiuszgithub"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="cv.pdf" class="btn" target="_blank">Pobierz CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="home.webp" alt="Remigiusz Nowakowski - Frontend Developer">
+
+        </div>
+    </section>
+
+    <!-- Skills section design -->
+    <section class="Skills" id="Skills">
+        <h1 class="heading">Moje <span>umiejętności</span></h1>
+
+        <div class="skills-container">
+            <div class="skill-tile">
+                <img src="html.webp" alt="HTML Icon">
+                <h3>HTML</h3>
+            </div>
+
+            <div class="skill-tile">
+                <img src="css.webp" alt="CSS Icon">
+                <h3>CSS</h3>
+            </div>
+
+            <div class="skill-tile">
+                <img src="javascript.webp" alt="JavaScript Icon">
+                <h3>JavaScript</h3>
+            </div>
+
+            <div class="skill-tile">
+                <img src="wordpress.webp" alt="WordPress Icon">
+                <h3>WordPress</h3>
+            </div>
+            <div class="skill-tile">
+                <img src="canva.webp" alt="Canva Icon">
+                <h3>Canva</h3>
+            </div>
+            <div class="skill-tile">
+                <img src="figma.webp" alt="Figma Icon">
+                <h3>Figma</h3>
+            </div>
+            <div class="skill-tile">
+                <img src="windows.webp" alt="Windows Icon">
+                <h3>Windows</h3>
+                <h3>Active Directory</h3>
+            </div>
+            <div class="skill-tile">
+                <img src="vscode.webp" alt="Visual Studio Code Icon">
+                <h3>Visual Studio Code</h3>
+            </div>
+            <div class="skill-tile">
+                <img src="python.webp" alt="Python Icon">
+                <h3>Python</h3>
+            </div>
+            <div class="skill-tile">
+                <img src="sql.webp" alt="SQL Icon">
+                <h3>SQL</h3>
+            </div>
+            <div class="skill-tile">
+                <img src="vmware.webp" alt="VMware Icon">
+                <h3>VMware</h3>
+            </div>
+            <div class="skill-tile">
+                <img src="fortigate.webp" alt="Fortinet Icon">
+                <h3>FortiGate</h3>
+            </div>
+        </div>
+    </section>
+
+    <!--Project section design-->
+
+    <section class="Project" id="Project">
+        <h1 class="heading">Moje zrealizowane <span>projekty</span></h1>
+        <!-- Project 1 -->
+        <div class="project-card">
+            <h2 class="project-title">Dragon Repeller - RPG JavaScript</h2>
+            <img src="rpg.webp" alt="Gra RPG">
+            <p class="project-description">
+                Projekt "Dragon Repeller" to prosta gra RPG napisana w języku JavaScript. Gracz ma za zadanie pokonać
+                smoka, który
+                powstrzymuje ludzi przed opuszczeniem miasta. Gra skupia się na podstawowych koncepcjach programowania w
+                JavaScript,
+                takich jak działania na tablicach, ciągach znaków, obiektach, funkcjach, pętlach oraz instrukcjach
+                warunkowych if/else.
+            </p>
+            <a href="https://remigiuszgithub.github.io/RPG-/" class="project-link" target="_blank">Zobacz projekt</a>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card hidden">
+            <h2 class="project-title">Generator porad - API</h2>
+            <img src="api.webp" alt="Generator porad">
+            <p class="project-description">
+                Stworzyłem generator porad jako projekt z Frontend Mentor, który
+                korzysta z zewnętrznego API (https://api.adviceslip.com/advice), używając HTML-a, CSS-a i JavaScript-u.
+            </p>
+            <a href="https://remigiuszgithub.github.io/Advice-generator-app/" class="project-link"
+                target="_blank">Zobacz projekt</a>
+        </div>
+        <!-- Project 3 -->
+        <div class="project-card hidden">
+            <h2 class="project-title">Strona BIP Szpitala Powiatowego w Nowym Mieście Lubawskim</h2>
+            <img src="bipszpitalnml.webp" alt="Strona BIP Szpitala Powiatowego w Nowym Mieście Lubawskim sp. z o.o.">
+            <p class="project-description">
+                Witryna została stworzona przy użyciu zaawansowanych technologii internetowych, takich jak HTML, CSS, JS
+                i PHP,
+                aby zapewnić użytkownikom łatwy dostęp do istotnych informacji publicznych dotyczących placówki.
+            </p>
+            <a href="https://bip.szpitalnml.pl" class="project-link" target="_blank">Zobacz projekt</a>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card hidden">
+            <h2 class="project-title">Sklep z modną bielizną - w trakcie budowy</h2>
+            <img src="modnabielizna.webp" alt="Sklep internetowy z modną bielizną">
+            <p class="project-description">
+                Rozwijam dynamiczny sklep internetowy dedykowany miłośniczkom oraz miłośnikom mody i elegancji –
+                specjalizujący
+                się w modnej bieliźnie.
+                Z wykorzystaniem WordPress i WooCommerce, projektuję przestrzeń online, która zachęci do eksploracji i
+                zakupów.
+            </p>
+            <a href="https://modnabielizna.com.pl" class="project-link" target="_blank">Zobacz projekt</a>
+        </div>
+        <!-- Project 5 -->
+        <div class="project-card hidden">
+            <h2 class="project-title">Facebook Klubu Sportowego Wel AT4B Bratian</h2>
+            <img src="welfb.webp" alt="Facebook Klubu Sportowego Wel AT4B Bratian">
+            <p class="project-description">
+                Stworzyłem i współzarządzam oficjalną stroną na Facebooku Klubu Sportowego Wel AT4B Bratian.
+                Korzystając z Canvy, przygotowuję grafiki informacyjne,
+                które w atrakcyjny sposób przekazują istotne treści.
+            </p>
+            <a href="https://pl-pl.facebook.com/p/KS-Wel-AT4B-Bratian-100057387252246/" class="project-link"
+                target="_blank">Zobacz projekt</a>
+        </div>
+        <div class="carousel-button">
+            <button class="prev-btn" onclick="changeProject(-1)">Poprzedni</button>
+            <div class="project-dots"></div>
+            <button class="next-btn" onclick="changeProject(1)">Następny</button>
+        </div>
+    </section>
+
+    <!--Contact section design-->
+
+    <section class="Contact" id="Contact">
+        <h1 class="heading">Skontaktuj się <span>ze mną!</span></h1>
+        <form action="maile.php" method="POST">
+            <div class="input-box">
+                <input type="text" name="name" id="name" placeholder="Imię i Nazwisko" required
+                    pattern="[A-Za-ząćęłńóśźżĄĆĘŁŃÓŚŹŻ\s]+">
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="input-box">
+                <input type="tel" name="phone" id="phone" placeholder="Numer telefonu" pattern="[0-9]{9}">
+                <input type="text" name="subject" id="subject" placeholder="Tytuł wiadomości" required>
+            </div>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Twoja wiadomość" required></textarea>
+            <input type="submit" value="Wyślij wiadomość" class="btn">
+        </form>
+    </section>
+    <div class="wrapper" id="cookieConsent">
+        <img src="cookie.webp" alt="Cookie icon class=" src">
+        <div class="content">
+            <header>Pliki Cookies</header>
+            <p>Ta strona korzysta z plików cookie, aby zapewnić najlepszą jakość korzystania z naszej witryny.</p>
+            <div class="buttons">
+                <button class="item" id="btnAccept">Akceptuj pliki cookies</button>
+                <a href="https://european-union.europa.eu/cookies_pl" class="item" target="_blank">Czytaj więcej</a>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright&copy; <span id="currentYear"></span> by Remigiusz Nowakowski | All Rights Reserved.</p>
+        </div>
+
+        <div class="Fotter-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+
+
+    </footer>
+
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
