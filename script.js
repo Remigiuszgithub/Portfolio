@@ -49,7 +49,7 @@ ScrollReveal().reveal('.home-content p, .carousel-button', { origin: 'right' });
 
 /*==================== typed.js ====================*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Frontend Developerem', 'Studentem'],
+    strings: ['Frontend Developerem', 'Studentem', 'Specjalistą IT'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
